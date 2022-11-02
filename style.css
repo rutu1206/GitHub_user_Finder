@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: linear-gradient(300deg,rgb(179, 53, 185),rgb(46, 2, 56));
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 97vh;
+}
+
+.navBar {
+    
+
+    margin-bottom: 3em;
+    margin-top: 0.5em;
+
+    color: antiquewhite;
+    letter-spacing: 0.18em;
+    font-size: 20px;
+    word-spacing: 0.5em;
+    border-bottom: 1px solid rgb(193, 105, 198) ;
+    border-top: 1px solid rgb(193, 105, 198) ;
+
+
+
+
+}
+
+input,button{
+   
+    background-color:rgb(115, 26, 137) ;
+    padding:15px;
+    margin-bottom: 3em;
+    color: aliceblue;
+    margin: 1em;
+    border: 1px solid rgb(182, 50, 189);
+    border-radius: 10px;
+}
+input::placeholder{
+    color:rgb(178, 176, 170)
+}
+
+.card {
+    margin-top: 2em;
+    background-image: linear-gradient(300deg,rgb(93, 14, 113),rgb(182, 50, 189));
+    display: flex;
+    justify-content: center;
+    max-width: 60em;
+    padding: 20px;
+    box-shadow:0 19px 23px rgba(0, 0, 0, 40%), 0 8px 50px rgb(68 65 65 / 40%);
+    border-radius: 20px;
+}
+/* 
+.imgContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.card img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 0.26em solid rgb(150, 33, 156);
+}
+
+.userInfo {
+    margin-left: 1.7em;
+    color:azure
+
+}
+
+.userInfo ul{
+
+    list-style-type: none;
+}
+
+.info {
+
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+   
+
+}
+
+.info  li strong {
+    margin-left: 5px;
+    font-size:0.8em;
+}
+
+.msg{
+    margin-top: 2em;
+    background-image: linear-gradient(300deg,rgb(93, 14, 113),rgb(182, 50, 189));
+    display: flex;
+    justify-content: center;
+    max-width: 400em;
+    padding: 20px;
+    box-shadow:0 19px 23px rgba(0, 0, 0, 40%), 0 8px 50px rgb(68 65 65 / 40%);
+    border-radius: 20px;
+    color: rgba(240, 248, 255, 0.781);
+    letter-spacing: 0.18em;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.re{
+    display: inline-block;
+    background-color:rgb(115, 26, 137) ;
+    padding: 0.3rem 0.3rem;
+    color:antiquewhite;
+    margin-top:5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+
+
+}
